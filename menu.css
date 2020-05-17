@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar .menu {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    font-size: 14px;
+}
+
+.menu-bar .menu li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #55555e;
+}
+
+.menu a:hover {
+    color: #66529f;
+}
+
+.menu .home {
+    color: #66529f;
+}
+
+.menu .has-subMenu {
+    position: relative;
+    padding:0px;
+}
+
+.menu .has-subMenu:hover .subMenu-Zingchart{
+    display: flex;
+}
+
+.has-subMenu .subMenu-Zingchart {
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #FFF;
+    display: none;
+}
+
+.has-subMenu .subMenu-Zingchart-1 {
+    width: 550px;
+    height: 400px;
+}
+
+.has-subMenu .subMenu-Zingchart-2 {
+    width: 550px;
+    height: 360px;
+}
+
+.has-subMenu .subMenu-Zingchart-3 {
+    width: 150px;
+    height: 220px;
+}
+
+.has-subMenu .subMenu-Zingchart .col-1 li{
+    margin: 15px 60px 0px 10px;
+    width: 100%;
+}
+
+.has-subMenu .subMenu-Zingchart .col-1 .bg-link {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.has-subMenu .subMenu-Zingchart .col-1 .bg-link:hover{
+    width: 90%;
+    background-color: #CCC;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.menu .VIP-btn {
+    margin: -8px 0px 0px 5px;
+}
+
+.menu .VIP-btn:hover {
+    cursor: pointer;
+}
