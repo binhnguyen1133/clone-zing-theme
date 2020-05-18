@@ -1,0 +1,28 @@
+.banner ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-img .img {
+    height: 315px;
+}
+
+.frame-thumbnail {
+    display: flex;
+    position: absolute;
+    bottom:100px;
+    left: 965px;
+    top: 370px;
+    display: none;
+}
+
+.banner-img:hover .frame-thumbnail {
+    display: flex;
+    top: 370px;
+}
+
+.frame-thumbnail li img {
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
