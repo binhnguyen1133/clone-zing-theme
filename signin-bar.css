@@ -5,6 +5,8 @@
     height: 70px;
     margin-left: 420px;
     cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .signIn-bar .icon {

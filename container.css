@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.container .container-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .content .text {
+  font-size: 23px;
+  color: #32323d;
+  margin-left: 410px;
+}
+
+.container .container-content .icon {
+  margin-left: 730px;
+  cursor: pointer;
+}
+
+.container .container-content .icon .sub-icon {
+  margin-right: 40px;
+}
+
+.container .grid-album {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.row-chart {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-chart .content {
+  display: block;
+  max-width: 100%;
+}
+
+.row-chart .content .image {
+  width: 165px;
+  height: 165px;
+  border-radius: 7px;
+  background-color: #ddd;
+  background-image: url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/d/e/5/ade5ba673f49a206227f5c2b8e25ba09.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 23px;
+  color: #fff;
+  margin: 0px 15px;
+  transform: scale(1);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.row-chart .image:hover {
+  transform: scale(1.1);
+}
+
+.image .overlay {
+  height: 100%;
+  font-size: 50px;
+  background-color: rgba(00, 00, 00, 0.6);
+  display: flex;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.row-chart .content:hover .overlay {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.row-chart .content:hover .type {
+  color: #4d8aca;
+}
+
+.row-chart .content:hover .overlay i {
+  margin: 10px;
+}
+
+.image:hover .overlay .icon:hover {
+  border-radius: 30px;
+  background-color: #aaa;
+}
+
+.row-chart .type {
+  cursor: pointer;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 150px;
+  margin: 10px 15px;
+}
