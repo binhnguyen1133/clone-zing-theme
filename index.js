@@ -1,3 +1,2 @@
-var node = require('nodejs');
-var app = node();
+var app= Node();
 app.listen(process.env.PORT || 3000);
